@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetFilRouge.spring;
+package javazon_jm.spring;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -22,8 +22,8 @@ import org.springframework.transaction.PlatformTransactionManager;
 @Configuration
 //@SpringBootApplication
 //@EnableAutoConfiguration
-@ComponentScan(basePackages = "projetFilRouge") 
-@EnableJpaRepositories(basePackages = "projetFilRouge")
+@ComponentScan(basePackages = "javazon_jm") 
+@EnableJpaRepositories(basePackages = "javazon_jm")
 @EnableScheduling
 public class SpringConfig {
 
@@ -36,7 +36,7 @@ public class SpringConfig {
 
     @Bean
     public EntityManagerFactory entityManagerFactory() {
-        return Persistence.createEntityManagerFactory("projetFilRouge_PU");
+        return Persistence.createEntityManagerFactory("javazon_jm_PU");
     }
 
 }

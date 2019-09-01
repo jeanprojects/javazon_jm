@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetFilRouge.service;
+package javazon_jm.service;
 
 import java.time.Instant;
 import java.util.Date;
@@ -11,14 +11,14 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import projetFilRouge.dao.ArticleDAOCrud;
-import projetFilRouge.dao.ClientDAOCrud;
-import projetFilRouge.dao.CommandeDAOCrud;
-import projetFilRouge.dao.LigneDeCommandeDAOCrud;
-import projetFilRouge.entity.Article;
-import projetFilRouge.entity.Client;
-import projetFilRouge.entity.Commande;
-import projetFilRouge.entity.LigneDeCommande;
+import javazon_jm.dao.ArticleDAOCrud;
+import javazon_jm.dao.ClientDAOCrud;
+import javazon_jm.dao.CommandeDAOCrud;
+import javazon_jm.dao.LigneDeCommandeDAOCrud;
+import javazon_jm.entity.Article;
+import javazon_jm.entity.Client;
+import javazon_jm.entity.Commande;
+import javazon_jm.entity.LigneDeCommande;
 
 
 

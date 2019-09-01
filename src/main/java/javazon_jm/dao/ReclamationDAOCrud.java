@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetFilRouge.dao;
+package javazon_jm.dao;
 
 import java.io.Serializable;
 import java.util.List;
 import org.springframework.data.repository.CrudRepository;
-import projetFilRouge.entity.Commentaire;
-import projetFilRouge.entity.Reclamation;
+import javazon_jm.entity.Commentaire;
+import javazon_jm.entity.Reclamation;
 
 /**
  *

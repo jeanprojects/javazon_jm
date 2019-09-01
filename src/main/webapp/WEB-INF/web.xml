@@ -2,9 +2,8 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <servlet>
         <servlet-name>LancerServletIndex</servlet-name>
-        <servlet-class>projetFilRouge.servlet.IndexServlet</servlet-class>
+        <servlet-class>javazon_jm.servlet.IndexServlet</servlet-class>
     </servlet>
-    
     <servlet-mapping>
         <servlet-name>LancerServletIndex</servlet-name>
         <url-pattern>/index_page</url-pattern>
@@ -13,7 +12,7 @@
         <description/>
         <display-name>TestProduits</display-name>
         <servlet-name>TestProduits</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestProduits</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestProduits</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestProduits</servlet-name>
@@ -23,7 +22,7 @@
         <description/>
         <display-name>TestContact</display-name>
         <servlet-name>TestContact</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestContact</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestContact</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestContact</servlet-name>
@@ -33,7 +32,7 @@
         <description/>
         <display-name>TestPanier</display-name>
         <servlet-name>TestPanier</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestPanier</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestPanier</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestPanier</servlet-name>
@@ -43,7 +42,7 @@
         <description/>
         <display-name>TestProductDetail</display-name>
         <servlet-name>TestProductDetail</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestProductDetail</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestProductDetail</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestProductDetail</servlet-name>
@@ -53,7 +52,7 @@
         <description/>
         <display-name>TestProduitSeul</display-name>
         <servlet-name>TestProduitSeul</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestProduitSeul</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestProduitSeul</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestProduitSeul</servlet-name>
@@ -63,7 +62,7 @@
         <description/>
         <display-name>TestAbout</display-name>
         <servlet-name>TestAbout</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestAbout</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestAbout</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestAbout</servlet-name>
@@ -73,7 +72,7 @@
         <description/>
         <display-name>TestBlog</display-name>
         <servlet-name>TestBlog</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestBlog</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestBlog</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestBlog</servlet-name>
@@ -83,30 +82,26 @@
         <description/>
         <display-name>TestLoginMobile</display-name>
         <servlet-name>TestLoginMobile</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestLoginMobile</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestLoginMobile</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestLoginMobile</servlet-name>
         <url-pattern>/loginMobil_page</url-pattern>
     </servlet-mapping>
-    
     <servlet>
         <description/>
         <display-name>TestValiderCompte</display-name>
         <servlet-name>TestValiderCompte</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestValiderCompte</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestValiderCompte</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestValiderCompte</servlet-name>
         <url-pattern>/validerCompte_page</url-pattern>
     </servlet-mapping>
-    
-    
     <servlet>
         <servlet-name>TestRegistrerClient</servlet-name>
-        <servlet-class>projetFilRouge.servlet.TestRegistrerClient</servlet-class>
+        <servlet-class>javazon_jm.servlet.TestRegistrerClient</servlet-class>
     </servlet>
-    
     <servlet-mapping>
         <servlet-name>TestRegistrerClient</servlet-name>
         <url-pattern>/registrer_page</url-pattern>

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetFilRouge.servlet;
+package javazon_jm.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
-import projetFilRouge.service.ArticleService;
-import projetFilRouge.spring.AutowireServlet;
+import javazon_jm.service.ArticleService;
+import javazon_jm.spring.AutowireServlet;
 
 /**
  *

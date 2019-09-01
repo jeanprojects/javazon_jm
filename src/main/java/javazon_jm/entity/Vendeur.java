@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetFilRouge.entity;
+package javazon_jm.entity;
 
 import java.io.Serializable;
 import javax.persistence.Column;
@@ -57,7 +57,7 @@ public class Vendeur implements Serializable {
 
     @Override
     public String toString() {
-        return "projetFilRouge.entity.Vendeur[ id=" + id + " ]";
+        return "javazon_jm.entity.Vendeur[ id=" + id + " ]";
     }
     
 }

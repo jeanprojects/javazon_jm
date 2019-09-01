@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>streaming</groupId>
-    <artifactId>projetFilRouge</artifactId>
+    <artifactId>javazon_jm</artifactId>
      <version>1.0-SNAPSHOT</version>      <!-- <version>0.0.1-SNAPSHOT</version> -->
      
     
 
-    <name>projetFilRouge</name>
+    <name>javazon_jm</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

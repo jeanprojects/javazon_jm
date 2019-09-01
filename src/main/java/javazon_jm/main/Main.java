@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetFilRouge.main;
+package javazon_jm.main;
 
 import java.util.Date;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
-import projetFilRouge.entity.Article;
-import projetFilRouge.entity.Client;
-import projetFilRouge.entity.Commande;
-import projetFilRouge.entity.Commentaire;
-import projetFilRouge.entity.LigneDeCommande;
-import projetFilRouge.entity.Reclamation;
+import javazon_jm.entity.Article;
+import javazon_jm.entity.Client;
+import javazon_jm.entity.Commande;
+import javazon_jm.entity.Commentaire;
+import javazon_jm.entity.LigneDeCommande;
+import javazon_jm.entity.Reclamation;
 
 /**
  *
@@ -25,9 +25,9 @@ public class Main {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        //Persistence.createEntityManagerFactory("projetFilRouge_PU");
+        //Persistence.createEntityManagerFactory("javazon_jm_PU");
         
-        EntityManager em = Persistence.createEntityManagerFactory("projetFilRouge_PU").createEntityManager();
+        EntityManager em = Persistence.createEntityManagerFactory("javazon_jm_PU").createEntityManager();
    
         Client film1 = em.find(Client.class, 1L);   //idem à faire ceci :  em.find(Client.class, (long)1 );
         

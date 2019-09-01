@@ -1,4 +1,4 @@
-package projetFilRouge.servlet;
+package javazon_jm.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import projetFilRouge.entity.Client;
-import projetFilRouge.spring.AutowireServlet;
+import javazon_jm.entity.Client;
+import javazon_jm.spring.AutowireServlet;
 
 
 @WebServlet("/TestContact")

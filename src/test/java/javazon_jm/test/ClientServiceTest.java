@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetFilRouge.test;
+package javazon_jm.test;
 
 import java.util.List;
 import org.junit.Test;
@@ -14,9 +14,9 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
-import projetFilRouge.entity.Client;
-import projetFilRouge.service.ClientService;
-import projetFilRouge.spring.SpringConfig;
+import javazon_jm.entity.Client;
+import javazon_jm.service.ClientService;
+import javazon_jm.spring.SpringConfig;
 
 
 /**

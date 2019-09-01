@@ -1,12 +1,12 @@
-package projetFilRouge.controller;
+package javazon_jm.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.context.support.SpringBeanAutowiringSupport;
-import projetFilRouge.entity.Client;
-import projetFilRouge.service.ClientService;
+import javazon_jm.entity.Client;
+import javazon_jm.service.ClientService;
 
 
 @Transactional

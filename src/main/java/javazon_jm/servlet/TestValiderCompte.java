@@ -1,4 +1,4 @@
-package projetFilRouge.servlet;
+package javazon_jm.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -7,10 +7,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
-import projetFilRouge.controller.ClientController;
-import projetFilRouge.entity.Client;
-import projetFilRouge.service.ClientService;
-import projetFilRouge.spring.AutowireServlet;
+import javazon_jm.controller.ClientController;
+import javazon_jm.entity.Client;
+import javazon_jm.service.ClientService;
+import javazon_jm.spring.AutowireServlet;
 
 /**
  * Servlet implementation class TestValiderCompte

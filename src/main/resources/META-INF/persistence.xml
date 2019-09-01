@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
-  <persistence-unit name="projetFilRouge_PU" transaction-type="RESOURCE_LOCAL">
+  <persistence-unit name="javazon_jm_PU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-    <class>projetFilRouge.entity.Client</class>
-    <class>projetFilRouge.entity.Article</class>
-    <class>projetFilRouge.entity.Commentaire</class>
-    <class>projetFilRouge.entity.Reclamation</class>
-    <class>projetFilRouge.entity.Vendeur</class>
-    <class>projetFilRouge.entity.Commande</class>
-    <class>projetFilRouge.entity.LigneDeCommande</class>
-    <class>projetFilRouge.dao.ArticleDAO</class>
+    <class>javazon_jm.entity.Client</class>
+    <class>javazon_jm.entity.Article</class>
+    <class>javazon_jm.entity.Commentaire</class>
+    <class>javazon_jm.entity.Reclamation</class>
+    <class>javazon_jm.entity.Vendeur</class>
+    <class>javazon_jm.entity.Commande</class>
+    <class>javazon_jm.entity.LigneDeCommande</class>
+    <class>javazon_jm.dao.ArticleDAO</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/filrouge"/>

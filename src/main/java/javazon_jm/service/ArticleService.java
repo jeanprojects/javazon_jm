@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetFilRouge.service;
+package javazon_jm.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import projetFilRouge.dao.ArticleDAOCrud;
-import projetFilRouge.entity.Article;
+import javazon_jm.dao.ArticleDAOCrud;
+import javazon_jm.entity.Article;
 
 /**
  * @correction Jean
